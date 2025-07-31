@@ -24,4 +24,5 @@ public interface PassedClothesRecordsDAO {
     boolean hasRecordForWorkerAndDate(Integer workerId,LocalDate date); // Este método irá verificar a existência de um registro no banco de dados.
 
 
+
 }

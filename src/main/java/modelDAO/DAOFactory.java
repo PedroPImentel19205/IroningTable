@@ -1,6 +1,6 @@
 package modelDAO;
 
-import DB.DB;
+import Db.DB;
 import modelDAO.implement.DepartmentDaoJDBC;
 import modelDAO.implement.PassedClothesRecordsDaoJDBC;
 import modelDAO.implement.WorkersDaoJDBC;

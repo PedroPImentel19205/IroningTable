@@ -14,4 +14,7 @@ public interface WorkersDAO {
     Workers findById(Integer id);// Para buscar um registro específico pelo ID
     List<Workers> findAll(); // Para buscar todos os registros
 
+
+    // Método para regra de exclusão
+    boolean hasRecords(Integer workerId);
 }
